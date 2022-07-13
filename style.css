@@ -17,7 +17,7 @@ nav {
 }
 
 .title-section {
-    width: 100vw;
+    width: 100%;
     height: 130px;
     display: flex;
     flex-direction: column;
@@ -45,6 +45,5 @@ nav {
 .hero-section {
     width: 100vw;
     height: 549px;
-    left: 0px;
-    top: 180px;
+    background: #C36E3C;
 }
