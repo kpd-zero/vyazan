@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&family=Scada:wght@400;700&display=swap');
+@import url(reset.css);
+
+
+h1 {
+    font-family: 'Old Standard TT';
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 56px;
+    color: #101417;
+}
+
+nav {
+    height: 50px;
+    width: 100vw;
+    background-color: #C4C4C4;
+}
