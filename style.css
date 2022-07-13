@@ -170,7 +170,7 @@ footer {
 }
 
 .footer-content {
-    width: 965px;
+    width: 960px;
     height: auto;
     padding-top: 70px;
     margin-left: auto;
@@ -185,6 +185,8 @@ footer {
 .logo-footer {
     font-size: 35px;
     margin-bottom: 10px;
+    position: relative;
+    left: -2px;
 }
 
 .address {
@@ -198,7 +200,7 @@ footer {
 }
 
 .socials {
-    margin-right: 25px;
+    margin-right: 23px;
 }
 
 .socials a:hover img{
