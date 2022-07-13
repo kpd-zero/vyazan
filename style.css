@@ -47,3 +47,44 @@ nav {
     height: 549px;
     background: #C36E3C;
 }
+
+.hero-content {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-text {
+    margin-left: 22px;
+    width: 341px;
+}
+
+h2 {
+    font-family: 'Old Standard TT';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 74px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    white-space: pre;
+}
+
+p {
+    font-family: 'Scada';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.hero-item-description {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.hero-item-price {
+    font-size: 18px;
+    line-height: 22px;
+}
