@@ -50,12 +50,23 @@ nav {
 
 .hero-content {
     width: 1000px;
+    height: 549px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    width: 642px;
+    height: 689px;
+    position: relative;
+    top: -140px;
 }
 
 .hero-text {
-    margin-left: 22px;
+    margin-left: 15px;
+    padding-top: 52px;
     width: 341px;
 }
 
@@ -68,6 +79,9 @@ h2 {
     letter-spacing: -0.03em;
     color: #FFFFFF;
     white-space: pre;
+    padding-bottom: 40px;
+    position: relative;
+    left: -5px;
 }
 
 p {
@@ -77,6 +91,10 @@ p {
     font-size: 20px;
     line-height: 25px;
     color: #FFFFFF;
+}
+
+.hero-item {
+    padding-top: 100px;
 }
 
 .hero-item-description {
