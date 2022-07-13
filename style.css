@@ -13,7 +13,17 @@ h1 {
 nav {
     height: 50px;
     width: 100vw;
-    background-color: #C4C4C4;
+    background-color: rgba(196,196,196,0.5);
+}
+
+a {
+    font-family: 'Scada';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    text-decoration: none;
 }
 
 .title-section {
@@ -31,6 +41,7 @@ nav {
     justify-content: space-between;
     position: relative;
     left: -30px;
+    z-index: 100;
 }
 
 .title-section-navigation a {
@@ -46,6 +57,7 @@ nav {
     width: 100vw;
     height: 549px;
     background: #C36E3C;
+
 }
 
 .hero-content {
@@ -62,6 +74,7 @@ img {
     height: 689px;
     position: relative;
     top: -140px;
+
 }
 
 .hero-text {
@@ -105,4 +118,10 @@ p {
 .hero-item-price {
     font-size: 18px;
     line-height: 22px;
+}
+
+footer {
+    width: 100%;
+    height: 199px;
+    background-color: rgba(196,196,196,0.5);
 }
