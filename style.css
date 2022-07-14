@@ -204,3 +204,7 @@ footer {
 .socials {
     margin-right: 23px;
 }
+
+.socials a {
+    text-decoration: none;
+}
