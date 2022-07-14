@@ -31,24 +31,22 @@ nav {
     line-height: 17px;
     color: #000000;
     text-decoration: none;
-    margin-left: 20px;
-}
-
-.nav-link:hover {
-    border-bottom: 1px solid currentColor;
-    display: inline-block;
-    line-height: 1.2; 
+    margin-left: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: ease 0.5s;
 }
 
 .nav-content {
-    width: 925px;
+    width: 920px;
     height: 100%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     flex-direction: row;
     justify-content: end;
-    padding-top: 20px;
+    padding-top: 19px;
 }
 
 /*------------------------------------------------TITLE SECTION*/
@@ -90,13 +88,13 @@ nav {
 }
 
 .title-link:hover {
-    border-bottom: 1px solid currentColor;
+    border-bottom: 0.01em solid #bbbbbb;
     display: inline-block;
     line-height: 1.2; 
 }
 
 .title-link-active {
-    border-bottom: 1px solid currentColor;
+    border-bottom: 0.01em solid #bbbbbb;
     display: inline-block;
     line-height: 1.2;
 }
