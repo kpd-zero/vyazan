@@ -204,8 +204,3 @@ footer {
 .socials {
     margin-right: 23px;
 }
-
-.socials a:hover img{
-    filter: invert(100%);
-    transition: ease 0.5s;
-}
