@@ -31,11 +31,15 @@ nav {
     line-height: 17px;
     color: #000000;
     text-decoration: none;
-    margin-left: 25px;
+    margin-left: 23px;
     display: flex;
     flex-direction: row;
     align-items: center;
     transition: ease 0.5s;
+}
+
+.nav-link svg {
+    padding-right: 2px;
 }
 
 .nav-content {
