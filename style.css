@@ -15,7 +15,7 @@ p {
 
 /*-----------------------------------------------NAVIGATION SECTION*/
 header {
-    height: 50px;
+    min-height: 50px;
     max-width: 1000px;
     background-color: rgba(196,196,196,0.5);
     margin-left: auto;
