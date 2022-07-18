@@ -16,7 +16,7 @@ p {
 /*-----------------------------------------------NAVIGATION SECTION*/
 header {
     height: 50px;
-    width: 1000px;
+    max-width: 1000px;
     background-color: rgba(196,196,196,0.5);
     margin-left: auto;
     margin-right: auto;
@@ -42,7 +42,7 @@ header {
 }
 
 .nav-content {
-    width: 920px;
+    max-width: 920px;
     height: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -62,7 +62,9 @@ header {
 }
 
 .title-section {
-    width: 100%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
     height: 130px;
     display: flex;
     flex-direction: column;
@@ -104,7 +106,7 @@ header {
 
 /*-----------------------------------------------HERO SECTION*/
 .hero-section {
-    width: 1000px;
+    max-width: 1000px;
     height: 549px;
     margin-left: auto;
     margin-right: auto;
@@ -112,7 +114,7 @@ header {
 }
 
 .hero-content {
-    width: 1000px;
+    max-width: 1000px;
     height: 549px;
     margin-left: auto;
     margin-right: auto;
@@ -130,7 +132,7 @@ header {
 .hero-text {
     margin-left: 20px;
     padding-top: 52px;
-    width: 341px;
+    max-width: 341px;
 }
 
 .hero-header {
@@ -163,7 +165,7 @@ header {
 
 /*-----------------------------------------------FOOTER SECTION*/
 footer {
-    width: 1000px;
+    max-width: 1000px;
     height: 199px;
     margin-left: auto;
     margin-right: auto;
@@ -171,7 +173,7 @@ footer {
 }
 
 .footer-content {
-    width: 960px;
+    max-width: 960px;
     height: auto;
     padding-top: 70px;
     margin-left: auto;
