@@ -2,8 +2,6 @@
 @import url(reset.css);
 
 
-
-
 p {
     font-family: 'Scada';
     font-style: normal;
@@ -106,7 +104,7 @@ header {
 /*-----------------------------------------------HERO SECTION*/
 .hero-section {
     max-width: 1000px;
-    height: 549px;
+    min-height: 549px;
     margin-left: auto;
     margin-right: auto;
     background: #C36E3C;
@@ -131,7 +129,7 @@ header {
 .hero-text {
     margin-left: 20px;
     padding-top: 52px;
-    max-width: 341px;
+    min-width: 341px;
 }
 
 .hero-header {
@@ -150,6 +148,8 @@ header {
 
 .hero-item {
     padding-top: 100px;
+    position: relative;
+    z-index: 100;
 }
 
 .hero-item-description {
@@ -207,4 +207,49 @@ footer {
 
 .socials a {
     text-decoration: none;
+}
+
+
+@media  (max-width: 600px) {
+    .nav-content {
+        margin-right: auto;
+    }
+    .title-section-navigation {
+        height: 100px;
+        left: 0px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .title-section {
+        height: 200px;
+    }
+    .hero-section {
+        min-height: 700px;
+    }
+    .hero-text {
+        padding-top: 20px;
+        max-width: 341px;
+    }
+    .hero-header {
+        white-space: normal;
+    }
+    .hero-image {
+        position: absolute;
+        width: 370px;
+        height: auto;
+        left: 130px;
+        top: 550px;
+    }
+    .hero-item {
+        padding-top: 270px;
+        z-index: 100;
+    }
+    .hero-item-description {
+        max-width: 150px;
+        z-index: 100;
+    }
+    .footer-content {
+        padding-left: 20px;
+    }
 }
