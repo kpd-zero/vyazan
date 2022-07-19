@@ -31,7 +31,6 @@ header {
     line-height: 17px;
     color: #000000;
     text-decoration: none;
-    margin-left: 23px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -42,13 +41,13 @@ header {
 }
 
 .nav-content {
-    max-width: 920px;
+    max-width: 295px;
     height: 100%;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 40px;
     display: flex;
     flex-direction: row;
-    justify-content: end;
+    justify-content: space-between;
     padding-top: 19px;
 }
 
