@@ -214,6 +214,7 @@ footer {
     .nav-content {
         margin-right: auto;
     }
+
     .title-section-navigation {
         height: 100px;
         left: 0px;
@@ -221,19 +222,24 @@ footer {
         align-items: center;
         justify-content: space-between;
     }
+
     .title-section {
         height: 200px;
     }
+
     .hero-section {
         min-height: 700px;
     }
+
     .hero-text {
         padding-top: 20px;
         max-width: 341px;
     }
+
     .hero-header {
         white-space: normal;
     }
+
     .hero-image {
         position: absolute;
         width: 370px;
@@ -241,14 +247,17 @@ footer {
         left: 130px;
         top: 550px;
     }
+
     .hero-item {
         padding-top: 270px;
         z-index: 100;
     }
+
     .hero-item-description {
         max-width: 150px;
         z-index: 100;
     }
+    
     .footer-content {
         padding-left: 20px;
     }
