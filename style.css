@@ -246,6 +246,7 @@ footer {
         height: auto;
         left: 130px;
         top: 550px;
+        overflow: hidden;
     }
 
     .hero-item {
