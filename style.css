@@ -304,19 +304,19 @@ footer {
     .hero-header {
         font-size: 50px;
         line-height: 38px;
-        padding-bottom: 25px;
+        padding-bottom: 20px;
     }
 
     .hero-image {
         position: relative;
         width: 371px;
         height: 398px;
-        left: -210px;
+        left: -220px;
         top: 7px;
     }
 
     .hero-item {
-        padding-top: 80px;
+        padding-top: 90px;
         z-index: 100;
     }
 
@@ -330,6 +330,7 @@ footer {
     .hero-item-price {
         font-size: 13px;
         line-height: 16px;
+        padding-top: 3px;
     }
     
     footer {
@@ -338,7 +339,7 @@ footer {
 
     .footer-content {
         padding-left: 20px;
-        padding-top: 15px;
+        padding-top: 20px;
     }
 
     .logo-footer {
