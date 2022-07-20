@@ -2,7 +2,7 @@
 @import url(reset.css);
 
 
-body {
+.wrapper {
     overflow-x: hidden;
 }
 
@@ -269,12 +269,7 @@ footer {
 
     .hero-section {
         max-height: 405px !important;
-        overflow: hidden;
         width: 100vw;
-    }
-
-    .hero-content {
-        overflow: hidden;
     }
 
     .hero-text {
@@ -307,7 +302,6 @@ footer {
         height: auto;
         left: 143px;
         top: 150px;
-        overflow: hidden;
     }
 
     .hero-item {
