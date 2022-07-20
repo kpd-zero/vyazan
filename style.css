@@ -209,54 +209,99 @@ footer {
     text-decoration: none;
 }
 
+.paragraph-mobile {
+    display: none;
+}
 
-@media  (max-width: 600px) {
+
+@media (max-width: 1000px) {
+    .title-section-navigation {
+        left: 0px;
+    }
+}
+
+@media  (max-width: 640px) {
     .nav-content {
         margin-right: auto;
     }
 
     .title-section-navigation {
-        height: 100px;
-        left: 0px;
-        flex-direction: column;
+        width: 90%;
         align-items: center;
         justify-content: space-between;
+        top: -5px;
     }
 
     .title-section {
-        height: 200px;
+        height: 94px;
+    }
+    
+    .title-link {
+        font-size: 12px;
+    }
+
+    .logo {
+        font-size: 25px;
     }
 
     .hero-section {
-        min-height: 700px;
+        max-height: 405px !important;
+        overflow: hidden;
+        width: 100vw;
+    }
+
+    .hero-content {
+        overflow: hidden;
     }
 
     .hero-text {
         padding-top: 20px;
-        max-width: 341px;
+    }
+
+    .paragraph-mobile {
+        display: block;
+    }
+
+    .paragraph-desktop {
+        display: none;
+    }
+
+    .hero-text p {
+        max-width: 145px;
+        font-size: 14px;
+        line-height: 16px;
     }
 
     .hero-header {
-        white-space: normal;
+        font-size: 50px;
+        line-height: 38px;
+        padding-bottom: 25px;
     }
 
     .hero-image {
         position: absolute;
-        width: 370px;
+        width: 371px;
         height: auto;
-        left: 130px;
-        top: 550px;
+        left: 143px;
+        top: 150px;
         overflow: hidden;
     }
 
     .hero-item {
-        padding-top: 270px;
+        padding-top: 100px;
         z-index: 100;
     }
 
     .hero-item-description {
         max-width: 150px;
         z-index: 100;
+        font-size: 12px;
+        line-height: 13px;
+    }
+
+    .hero-item-price {
+        font-size: 13px;
+        line-height: 16px;
     }
     
     .footer-content {
