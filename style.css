@@ -15,6 +15,10 @@ p {
     color: #FFFFFF;
 }
 
+a {
+    text-decoration: none;
+}
+
 /*-----------------------------------------------NAVIGATION SECTION*/
 header {
     min-height: 50px;
