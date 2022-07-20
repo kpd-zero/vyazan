@@ -280,7 +280,7 @@ footer {
 
     .hero-section {
         max-height: 405px !important;
-        width: 100vw;
+        min-height: 0px;
     }
 
     .hero-text {
@@ -308,15 +308,15 @@ footer {
     }
 
     .hero-image {
-        position: absolute;
+        position: relative;
         width: 371px;
-        height: auto;
-        left: 143px;
-        top: 150px;
+        height: 398px;
+        left: -210px;
+        top: 7px;
     }
 
     .hero-item {
-        padding-top: 100px;
+        padding-top: 80px;
         z-index: 100;
     }
 
@@ -332,7 +332,22 @@ footer {
         line-height: 16px;
     }
     
+    footer {
+        height: 91px;
+    }
+
     .footer-content {
         padding-left: 20px;
+        padding-top: 15px;
+    }
+
+    .logo-footer {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .address {
+        font-size: 11px;
+        line-height: 16px;
     }
 }
